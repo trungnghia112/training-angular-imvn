@@ -1,0 +1,39 @@
+.homebox-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: $c-text-color;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+.homebox-list {
+  line-height: 20px;
+  margin: 0 0 20px;
+  padding: 0 0 10px;
+  list-style-type: none;;
+  border-bottom: 1px solid $c-separator;
+  li {
+    a {
+      display: block;
+      color: $c-text-body;
+      text-decoration: none;
+      padding: 5px 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      -ms-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      &:hover {
+        background-color: $c-text-body;
+        color: #ffffff;
+      }
+    }
+  }
+
+  &.homebox-list-follow {
+    img.img-rounded {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+}
+

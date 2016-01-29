@@ -1,0 +1,47 @@
+/*!--------------------------------------------------------------------------------
+
+    Theme Name: sitevui
+    Version:    1.0.0
+    Author:     nghia <trungnghia112@gmail.com>
+
+-----------------------------------------------------------------------------------*/
+//  Bootstrap
+//  Fonts
+//  Global
+//  Third party
+//  Layout
+//  Content
+//---------------------------------------------------------------------------------*/
+//
+// =Bootstrap
+// --------------------------------------------------
+@import "custom-bootstrap";
+//
+// =Fonts
+// --------------------------------------------------
+@import "partials/fonts";
+//
+// =Setting
+// --------------------------------------------------
+@import "general/colors";
+@import "general/mixins";
+@import "general/settings";
+//
+// =Global
+// --------------------------------------------------
+@import "partials/buttons";
+@import "partials/icons";
+//
+// =Third party
+// --------------------------------------------------
+//
+// =Layout
+// --------------------------------------------------
+@import "layout/header";
+@import "layout/footer";
+@import "layout/content";
+@import "layout/sidebar";
+@import "layout/sidebar-right";
+//
+// =Pages
+// --------------------------------------------------

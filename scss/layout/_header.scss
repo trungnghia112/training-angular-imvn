@@ -1,0 +1,59 @@
+.navbar-brand {
+  text-transform: uppercase;
+  img {
+    height: 40px;
+    margin-top: -5px;
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+.dropdown-notifi {
+  > a {
+    overflow: hidden;
+    > i {
+      font-size: 20px;
+    }
+  }
+  .dropdown-notifi-num {
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    background-color: red;
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 50%;
+  }
+  .dropdown-notifi-list {
+    max-height: 180px;
+    min-width: 300px;
+    overflow: auto;
+    .mCSB_inside > .mCSB_container {
+      margin-right: 16px;
+    }
+    .dropdown-notifi-item {
+      > a {
+        padding: 10px;
+        display: block;
+        overflow: hidden;
+        text-decoration: none;
+        &:hover {
+          background-color: #eeeeee;
+        }
+      }
+    }
+    .media-heading {
+      font-size: 14px;
+      margin: 0 0 5px;
+      font-weight: bold;
+      color: $c-text-body;
+    }
+    p {
+      font-size: 12px;
+      margin: 0;
+      color: $c-text-body;
+    }
+  }
+}
